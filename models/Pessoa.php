@@ -14,7 +14,7 @@ class Pessoa extends model{
         $nome = addslashes($_POST['nome']);
         $dia = addslashes($_POST['dia']);
         $retorno = addslashes($_POST['retorno']);
-        $entregue = ( isset($_POST['entregue']) ) ? $entregue = "TRUE" : $entregue = "FALSE"; 
+        $entregue = addslashes($_POST['entregue']); 
         
         $sql = $this->db->prepare("INSERT INTO pessoa SET nome = :nome, dia = :dia, retorno = :retorno, entregue = :entregue");
         $sql->bindParam(":nome", $nome);
