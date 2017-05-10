@@ -1,18 +1,18 @@
 <html>
 	<head>
-		<title>Site Institucional</title>
-		<link rel="stylesheet"  />
+		<title>Agenda</title>
+                <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+                <link rel="stylesheet" href="assets/css/template.css" />
 	</head>
 	<body>
-            <div class="topo">
-                <u class="menu">
-                    <a href="#"><li>Home</li></a>
-                    <a href="contato.php"><li>Contato</li></a>
-                    <a href="pessoa.php"><li>Pessoa</li></a>
-                </u>
-            </div>
-            
+                   
 		<div class="container">
+                    <ul class="nav nav-pills">
+                <li role="presentation" class="active"><a href="home.php">Home</a></li>
+                <li role="presentation"><a href="livro.php">Adicionar Livro</a></li>
+                <li role="presentation"><a href="pessoa.php">Adicionar Pessoa</a></li>
+            </ul>
+            </div> 
                     <?php $this->loadViewInTemplate($viewName, $viewData); ?>
 		</div>
             

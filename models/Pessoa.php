@@ -5,9 +5,7 @@
  * @author everson
  */
 class Pessoa extends model{
-    
-    
-    
+   
     public function inserirPessoa() {     
         $nome = '';
         if(isset($_POST['nome']) && !empty($_POST['nome'])){
