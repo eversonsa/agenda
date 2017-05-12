@@ -1,12 +1,23 @@
-.espacamento{
-    margin-top: 110px;
+
+.centralizar{
+    margin: 0;
+    padding: 0;
+    margin: auto; 
+}
+.espacamento {
+    margin-top: 59px;
     float: left;
+    margin-left: 230px;
 }
 .informacao{
     margin-left: 40px;
-    padding-top: 115px;
+    padding-top: 20px;
 }
 .colocar_meio{
     margin-left: 300px;
+}
+.posicionamento{
+    border-radius: 50%;
+    margin-left: 224px;
 }
 
